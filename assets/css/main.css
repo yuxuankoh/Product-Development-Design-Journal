@@ -1,12 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
-/*
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
+img {
+	width: 100%;
+	height: auto;
+  }
+  
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -226,7 +225,15 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 1.3em;
+	}
+
+	p{
+		font-size: 1em;
+	}
+
+	li{
+		font: size 1.6em;
 	}
 
 	h5 {
